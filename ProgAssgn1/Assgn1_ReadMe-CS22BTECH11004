@@ -1,0 +1,12 @@
+1) All source code files are standard c++ files. Any c++ compiler will work
+
+2) If the inpGen code is not being used, the text file must be in a specific format:
+        The first line must contain two space separated integers N and K
+        N is the number of rows/columns in the square matrix and K is the number of threads
+        The next N lines must contain the 2d matrix, with N space separated integers on each line
+
+3) On execution, each code file will print a 2d matrix(A^2) along with the time taken to execute in its respective output file.
+
+4) K=1 will work for the codes Assgn1_Src-CS22BTECH11004_chunk.cpp and Assgn1_Src-CS22BTECH11004_mixed.cpp
+   It will not work for the code Assgn1_Src-CS22BTECH11004_mixedchunk.cpp because the code algorithm inherently assumes that every chunk formed has 2 threads
+   Hence, 2 is the minimum number of threads that will allow the code to function correctly. Please keep this in mind while designing inputs for this program.
