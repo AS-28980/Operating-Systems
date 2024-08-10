@@ -1,0 +1,4 @@
+1) The input file has the format
+    nw nr kw kr uCS uREM
+
+2) The logfiles will be opened in append mode, so make sure they are cleared before reuse of a file
