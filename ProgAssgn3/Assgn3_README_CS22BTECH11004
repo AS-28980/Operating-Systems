@@ -1,0 +1,8 @@
+1) All source code files are standard c++ files. Any c++ compiler will work
+
+2) If the inpGen code is not being used, the text file must be in a specific format:
+        The first line must contain three space separated integers N, K, R
+        N is the number of rows/columns in the square matrix, K is the number of threads, R is the value of the rowInc variable
+        The next N lines must contain the 2d matrix, with N space separated integers on each line
+
+3) On execution, each code file will print a 2d matrix(A^2) along with the time taken to execute in its respective output file.
